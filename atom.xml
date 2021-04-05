@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Triangle</title>
+  <title>Eddy-leo</title>
   
   
   <link href="https://eddy-leo.github.io/atom.xml" rel="self"/>
   
   <link href="https://eddy-leo.github.io/"/>
-  <updated>2021-04-05T08:29:25.819Z</updated>
+  <updated>2021-04-05T14:55:08.926Z</updated>
   <id>https://eddy-leo.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://eddy-leo.github.io/2018/09/07/hello-world/"/>
-    <id>https://eddy-leo.github.io/2018/09/07/hello-world/</id>
-    <published>2018-09-07T01:25:00.000Z</published>
-    <updated>2021-04-05T08:29:25.819Z</updated>
+    <title>第一篇Blog</title>
+    <link href="https://eddy-leo.github.io/2021/04/05/hello-world/"/>
+    <id>https://eddy-leo.github.io/2021/04/05/hello-world/</id>
+    <published>2021-04-05T01:25:00.000Z</published>
+    <updated>2021-04-05T14:55:08.926Z</updated>
     
     
       
@@ -29,7 +29,7 @@
         
         
     <summary type="html">&lt;hr&gt;
-&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a</summary>
+&lt;h1 id=&quot;欢迎来到我的第一篇Blog&quot;&gt;&lt;a href=&quot;#欢迎来到我的第一篇Blog&quot; class=&quot;headerlink&quot; title=&quot;欢迎来到我的第一篇Blog&quot;&gt;&lt;/a&gt;欢迎来到我的第一篇Blog&lt;/h1&gt;&lt;p&gt;@(Sample</summary>
         
       
     
@@ -38,9 +38,7 @@
     <category term="Markdown" scheme="https://eddy-leo.github.io/categories/Markdown/"/>
     
     
-    <category term="Typora" scheme="https://eddy-leo.github.io/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="https://eddy-leo.github.io/tags/Markdown/"/>
+    <category term="Introduction" scheme="https://eddy-leo.github.io/tags/Introduction/"/>
     
   </entry>
   

@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="2018/09/07/hello-world/"/>
-      <url>2018/09/07/hello-world/</url>
+      <title>第一篇Blog</title>
+      <link href="2021/04/05/hello-world/"/>
+      <url>2021/04/05/hello-world/</url>
       
-        <content type="html"><![CDATA[<hr><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="我的我的"><a href="#我的我的" class="headerlink" title="我的我的"></a>我的我的</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<hr><h1 id="欢迎来到我的第一篇Blog"><a href="#欢迎来到我的第一篇Blog" class="headerlink" title="欢迎来到我的第一篇Blog"></a>欢迎来到我的第一篇Blog</h1><p>@(Sample notebook)</p><p>第一次弄这个，花了两天多终于搭建起这个博客，可能还有不少需要改进的，这篇主要简单回答大家可能关注的几个问题，如果有具体问题可以在 <strong>Contact</strong>留言！</p><hr><h2 id="为什么搭这个博客"><a href="#为什么搭这个博客" class="headerlink" title="为什么搭这个博客"></a>为什么搭这个博客</h2><blockquote><p>受一位同级的朋友影响，因为最近在做项目，在网上查找各种资料，无意中看到了本校的同学发布的对我十分有用的资料，十分感谢，所以自己想搭一个<strong>blog</strong>为之后的学弟学妹解答疑问（主要以中英班为主，因为本身是中英版的啦）</p></blockquote><h2 id="博客主要内容是什么"><a href="#博客主要内容是什么" class="headerlink" title="博客主要内容是什么"></a>博客主要内容是什么</h2><h3 id="个人经历及看法"><a href="#个人经历及看法" class="headerlink" title="个人经历及看法"></a>个人经历及看法</h3><p><strong>我</strong>可能会不定时的发一些自己的一些在西电期间的经历以及从我角度看待成绩与竞赛的关系等等，尽管我可能是个<strong>loser</strong>，我相信你们可以做得更好！</p><h3 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h3><p><strong>重要的</strong> 我会把我从大二下到现在，以及大四的一些项目中我负责的部分慢慢的发布在这个博客上，希望各位少走弯路，因为我当时因为各种bug或者小的错误，耽误了太长时间。</p><h3 id="你们想知道的"><a href="#你们想知道的" class="headerlink" title="你们想知道的"></a>你们想知道的</h3><p>如果大家有想知道其他的事情或疑惑的事情也可以留言给我，有时间我会回复或者解答的，不过我可能也是个菜菜，不一定知道，hh</p><ul><li>QQ: 1224828933</li><li>Email: <a href="mailto:1224828933@qq.com">1224828933@qq.com</a></li></ul><hr><p>谢谢大家！</p>]]></content>
       
       
       <categories>
@@ -20,9 +20,7 @@
       
         <tags>
             
-            <tag> Typora </tag>
-            
-            <tag> Markdown </tag>
+            <tag> Introduction </tag>
             
         </tags>
       
