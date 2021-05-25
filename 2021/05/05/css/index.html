@@ -521,10 +521,10 @@
 </blockquote>
 <img src="/2021/05/05/css/%E5%9B%BE%E7%89%873.jpg" class="" title="GUI界面">
 
-<p>###Set up new projects<br>File-&gt;New-&gt;New project 选择Empty Activity -&gt;Next -&gt;</p>
+<h3 id="Set-up-new-projects"><a href="#Set-up-new-projects" class="headerlink" title="Set up new projects"></a>Set up new projects</h3><p>File-&gt;New-&gt;New project 选择Empty Activity -&gt;Next -&gt;</p>
 <img src="/2021/05/05/css/%E5%9B%BE%E7%89%874.jpg" class="">
 <p>Finish</p>
-<p>###Introduction to each section<br>目录结构：<br><a target="_blank" rel="noopener" href="http://segmentfault.com/a/1190000002963895">http://segmentfault.com/a/1190000002963895</a></p>
+<h3 id="Introduction-to-each-section"><a href="#Introduction-to-each-section" class="headerlink" title="Introduction to each section"></a>Introduction to each section</h3><p>目录结构：<br><a target="_blank" rel="noopener" href="http://segmentfault.com/a/1190000002963895">http://segmentfault.com/a/1190000002963895</a></p>
 <p>在res-&gt;values-&gt;themes-&gt;themes.xml中更改为</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">&lt;</span>style name<span class="token operator">=</span><span class="token string">"Theme.自己名称"</span> parent<span class="token operator">=</span><span class="token string">"Theme.MaterialComponents.DayNight.NoActionBar.Bridge"</span><span class="token operator">&gt;</span><span class="token punctuation">{</span>去除按钮原有背景色<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
@@ -623,7 +623,7 @@
         android<span class="token operator">:</span>layout_height<span class="token operator">=</span><span class="token string">"wrap_content"</span>
         android<span class="token operator">:</span>text<span class="token operator">=</span><span class="token string">"游戏"</span><span class="token operator">/</span><span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>上方只要有{}括起来的都为解释说明，需去掉。</p>
-<h3 id="Component-invocation-in-Java"><a href="#Component-invocation-in-Java" class="headerlink" title="Component invocation in Java"></a>Component invocation in Java</h3><p>$$    最初Java文件，也就是你的MainActivity$$</p>
+<h3 id="Component-invocation-in-Java"><a href="#Component-invocation-in-Java" class="headerlink" title="Component invocation in Java"></a>Component invocation in Java</h3><p>$$    最初Java文件，也就是你的MainActivity $$</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>example<span class="token punctuation">.</span>triangle</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token namespace">androidx<span class="token punctuation">.</span>appcompat<span class="token punctuation">.</span>app<span class="token punctuation">.</span></span><span class="token class-name">AppCompatActivity</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token namespace">android<span class="token punctuation">.</span>os<span class="token punctuation">.</span></span><span class="token class-name">Bundle</span><span class="token punctuation">;</span>
@@ -635,7 +635,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>$$    更改后Java文件$$</p>
+<p>$$    更改后Java文件 $$</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MainActivity</span> <span class="token keyword">extends</span> <span class="token class-name">AppCompatActivity</span> <span class="token punctuation">{</span>
     <span class="token keyword">private</span> <span class="token class-name">Button</span> mBtnlogin<span class="token punctuation">;</span>
     <span class="token keyword">private</span> <span class="token class-name">EditText</span> mEtuser<span class="token punctuation">;</span>
@@ -715,7 +715,7 @@ toast<span class="token punctuation">.</span><span class="token function">show</
             <span class="token function">startActivity</span><span class="token punctuation">(</span>intent<span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h3><p>AS中常用的一些快捷键<br>| Item      |    Content |<br>| :——– | ——–:|<br>| Ctrl+G  | 同时按下Ctrl+G快捷键弹出快速定位框，在框中输入行数点击OK即可快速切换到对应的行数 |<br>| Ctrl+/     |  选中某一行，同时按下Ctrl+/快捷键可以注释这一行 |<br>|Ctrl+F      |    同时按下Ctrl+F快捷键，将在编辑页的顶部弹出类内快速搜索栏，可以快速定位类内的某个单词，支持联想查找 |<br>| Ctrl+J     |  同时按下Ctrl和J快捷键，弹出快捷代码框 |<br>| Ctrl+Alt+L     |  对当前类的所有代码进行格式化 |<br>| Ctrl+鼠标左键     |  此快捷键可以查看鼠标选中的类或方法 |<br>| Alt+回车Enter     |  选中某个，同时按下Alt+回车Enter会有神奇的事情 |</p>
+<h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h3><p>AS中常用的一些快捷键<br>| Item      |   Content |<br>| :——– | ——–:|<br>| Ctrl+G  | 同时按下Ctrl+G快捷键弹出快速定位框，在框中输入行数点击OK即可快速切换到对应的行数 |<br>| Ctrl+/     |  选中某一行，同时按下Ctrl+/快捷键可以注释这一行 |<br>| Ctrl+F      |    同时按下Ctrl+F快捷键，将在编辑页的顶部弹出类内快速搜索栏，可以快速定位类内的某个单词，支持联想查找 |<br>| Ctrl+J     |  同时按下Ctrl和J快捷键，弹出快捷代码框 |<br>| Ctrl+Alt+L     |  对当前类的所有代码进行格式化 |<br>| Ctrl+鼠标左键    |  此快捷键可以查看鼠标选中的类或方法 |<br>| Alt+回车Enter     |  选中某个，同时按下Alt+回车Enter会有神奇的事情 |</p>
 <blockquote>
 <p><strong>Note:</strong> You can find more information:</p>
 </blockquote>
