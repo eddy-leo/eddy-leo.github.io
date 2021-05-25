@@ -504,7 +504,7 @@
 </code></pre>
 <p>Learn <strong>Java</strong> and <strong>AS</strong> to write and generate APP.<br>In this project, the graphical interface was developed in <strong>Android Studio</strong>, using Java programming language.Its main function is to provide customers with a comprehensive game, allowing developers to check all aspects, including sensors, communications and servo motors.</p>
 <p>The upper computer use a <a target="_blank" rel="noopener" href="http://wiki.friendlyarm.com/wiki/index.php/Smart4418">friendly</a> provided LCD screen.这是LCD一些端口的示意图，如果还需要更详细的了解，可以去友善官方去查看。</p>
-<img src="/2021/05/05/css/%E5%9B%BE%E7%89%871.jpg" class="" title="这是一张图片">
+<img src="/2021/05/05/css/%E5%9B%BE%E7%89%871.jpg" class="" title="LCD端口">
 
 <h2 id="Requirement-of-project"><a href="#Requirement-of-project" class="headerlink" title="Requirement of project"></a>Requirement of project</h2><ul>
 <li><strong>Two language modes</strong> - English mode and Chinese mode.</li>
@@ -514,21 +514,22 @@
 <li><strong>Guide user operation</strong> - through appropriate voice and text prompts.<br>大概最基础的就这几点,语言切换，模式，自动化，身份识别，语音提示，智能，哦对了还有通信，通信会在下一个part里说。</li>
 </ul>
 <hr>
-<img src="/2021/05/05/css/%E5%9B%BE%E7%89%872.jpg" class="" title="这是一张图片">
+<img src="/2021/05/05/css/%E5%9B%BE%E7%89%872.jpg" class="" title="流程图">
 <p>这是一个简单的操作流程图，看不懂也没关系(=^▽^=)后面我主要说最基本的GUI的设计。</p>
 <h2 id="GUI"><a href="#GUI" class="headerlink" title="GUI"></a>GUI</h2><blockquote>
 <p>先放一张自己做的GUI</p>
 </blockquote>
-<img src="/2021/05/05/css/%E5%9B%BE%E7%89%873.jpg" class="" title="这是一张图片">
+<img src="/2021/05/05/css/%E5%9B%BE%E7%89%873.jpg" class="" title="GUI界面">
 
 <p>###Set up new projects<br>File-&gt;New-&gt;New project 选择Empty Activity -&gt;Next -&gt;</p>
-<img src="/2021/05/05/css/%E5%9B%BE%E7%89%874.jpg" class="" title="这是一张图片">
+<img src="/2021/05/05/css/%E5%9B%BE%E7%89%874.jpg" class="">
 <p>Finish</p>
 <p>###Introduction to each section<br>目录结构：<br><a target="_blank" rel="noopener" href="http://segmentfault.com/a/1190000002963895">http://segmentfault.com/a/1190000002963895</a></p>
 <p>在res-&gt;values-&gt;themes-&gt;themes.xml中更改为</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">&lt;</span>style name<span class="token operator">=</span><span class="token string">"Theme.自己名称"</span> parent<span class="token operator">=</span><span class="token string">"Theme.MaterialComponents.DayNight.NoActionBar.Bridge"</span><span class="token operator">&gt;</span><span class="token punctuation">{</span>去除按钮原有背景色<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h3 id="Layout"><a href="#Layout" class="headerlink" title="Layout"></a>Layout</h3><p><img src="./1621922483848.png" alt="Alt text"><br>Code只看代码，Split代码＋图示，Design只看图示</p>
+<h3 id="Layout"><a href="#Layout" class="headerlink" title="Layout"></a>Layout</h3><img src="/2021/05/05/css/%E5%9B%BE%E7%89%875.jpg" class="">
+<p>Code只看代码，Split代码＋图示，Design只看图示</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">&lt;</span><span class="token operator">?</span>xml version<span class="token operator">=</span><span class="token string">"1.0"</span> encoding<span class="token operator">=</span><span class="token string">"utf-8"</span><span class="token operator">?</span><span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token class-name">LinearLayout</span> xmlns<span class="token operator">:</span>android<span class="token operator">=</span><span class="token string">"http://schemas.android.com/apk/res/android"</span><span class="token punctuation">{</span>排版类型，有三种，建立新的<span class="token class-name">Layout</span>应该是<span class="token class-name"><span class="token namespace">androidx<span class="token punctuation">.</span>constraintlayout<span class="token punctuation">.</span>widget<span class="token punctuation">.</span></span>ConstraintLayout</span>，在这种下你可以拖拽组件布置页面，还有<span class="token class-name">LinearLayout</span>和<span class="token class-name">RelativeLayout</span>，我习惯使用<span class="token class-name">LinearLayout</span><span class="token punctuation">}</span>
     xmlns<span class="token operator">:</span>app<span class="token operator">=</span><span class="token string">"http://schemas.android.com/apk/res-auto"</span>
