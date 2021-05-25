@@ -6,7 +6,7 @@
   <link href="https://eddy-leo.github.io/atom.xml" rel="self"/>
   
   <link href="https://eddy-leo.github.io/"/>
-  <updated>2021-05-25T09:43:59.975Z</updated>
+  <updated>2021-05-25T09:53:50.760Z</updated>
   <id>https://eddy-leo.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://eddy-leo.github.io/2021/05/05/secondblog/"/>
     <id>https://eddy-leo.github.io/2021/05/05/secondblog/</id>
     <published>2021-05-05T07:25:00.000Z</published>
-    <updated>2021-05-25T09:43:59.975Z</updated>
+    <updated>2021-05-25T09:53:50.760Z</updated>
     
     
       
@@ -34,7 +34,7 @@
     
     
     
-    <category term="LCD,Android Studio" scheme="https://eddy-leo.github.io/categories/LCD-Android-Studio/"/>
+    <category term="LCD|Android Studio" scheme="https://eddy-leo.github.io/categories/LCD-Android-Studio/"/>
     
     
     <category term="LCD" scheme="https://eddy-leo.github.io/tags/LCD/"/>
